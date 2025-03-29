@@ -1,0 +1,80 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    direction: rtl;
+}
+
+/* صندوق التسجيل */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* شعار سناب شات */
+.logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* عنوان "منصة الأضواء" */
+.title {
+    color: #FFFC00;
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* عنوان فرعي */
+.subtitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الإدخالات */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* زر تفعيل المكاسب */
+.submit-btn {
+    background-color: #FFFC00;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #ffe600;
+}
+
+/* رسالة الخطأ */
+#message {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+/* إخفاء الرسائل في البداية */
+.hidden {
+    display: none;
+}
